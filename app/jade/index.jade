@@ -1,0 +1,142 @@
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Document
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css")
+    link(rel="stylesheet", href="css/libs.min.css")
+    link(rel="stylesheet", href="css/main.min.css")
+    script(src="js/libs.min.js")
+    script(src="js/common.js")
+  body
+    .container
+      header.header
+        .preblock
+        .menublock
+          .menu
+            .menu__item.menu-caret Shop
+              ul
+                li
+                  a(href="#") Shop 
+                li
+                  a(href="#") Shop 2  
+                li
+                  a(href="#") Shop 3  
+            a.menu__item(href="#") Style Quiz
+            a.menu__item(href="#") About Us
+            .menu__item.menu-caret Stories
+              ul
+                li
+                  a(href="#") Stories 
+                li
+                  a(href="#") Stories 2  
+                li
+                  a(href="#") Stories 3
+          .menublock__name
+            img(src="img/logo.png", alt="")
+          .navigation 
+            .navigation__item
+              img(src="img/user.png", alt="")
+            .navigation__item
+              img(src="img/find.png", alt="")
+            .navigation__item
+              img(src="img/basket.png", alt="")
+      main.main 
+        section.image-block(style="background: url('../img/mainimage.jpg')")
+          .image-block__collection all collection
+          .image-block__tagline Elevate Your Everyday
+          a(href="#") 
+            .image-block__button
+              .button__text shop now
+        .main__intro If your happy place is at the dinner table, we totally get that. That’s why we created products to help you find slow moments in a fast world.
+        .main__link-block
+          a.main__link(href="#") Shop All &rarr;
+          a.main__link(href="#") Read Stories &rarr;
+        section.board-collection 
+          .board__name  Maple Board Collection
+          .board__goods-block 
+            a.board-good-item(href="#") 
+              .board-good-item__image 
+                img(src="../img/short.jpg", alt="") 
+              .board-good-item__name Maple Board - Short
+              .board-good-item__price $98.00
+            a.board-good-item(href="#") 
+              .board-good-item__image
+                img(src="../img/long.jpg", alt="") 
+              .board-good-item__name Maple Board - Long
+              .board-good-item__price $125.00
+            a.board-good-item(href="#") 
+              .board-good-item__image
+                img(src="../img/wide.jpg", alt="") 
+              .board-good-item__name Maple Board - Wide
+              .board-good-item__price $158.00
+        section.essentials(style="background: url('../img/essential.jpg')")     
+          .essentials__name The Essentials 
+          .essentials__text We believe minimalism means more. More space, more time, more meaningful moments.
+        section.story
+          img.story__image(src="../img/story.jpg")
+          .story-block 
+            .story-block__name Our Design Story    
+            .story-block__line    
+            .story-block__description We believe in thoughtful, intentional living. So we promise not to clutter your cabinets with one-off pieces you’ll rarely use. Our collection only includes items you’ll reach for every day. Because mindful living should be simple, not stressful.    
+        section.story2
+          .story-block 
+            .story-block__name Your Table Your Time   
+            .story-block__line    
+            .story-block__description Our modern lives keep us in constant motion. But what keeps us moving isn’t always what moves us. Our time at the table is our pause button. Meals can become moments and moments can become memories. So grab a plate, pull up a seat, and stay a while
+          img.story__image(src="../img/yourTable.jpg") 
+        section.signUp
+          .description 
+            .description__first Sign up to our newsletter
+            .description__second Receive special offers and first look at new products.
+          form.subscribe(action="#" method="post") 
+            input.subscribe__input(type="email")
+            input.subscribe__button(type="submit" value="Subscribe") 
+        section.moments
+          .moments__name #KinnMoments
+          .gallery 
+            img.gallery__item(src="../img/item1.jpg")
+            img.gallery__item(src="../img/item2.jpg")
+            img.gallery__item(src="../img/item3.jpg")
+            img.gallery__item(src="../img/item4.jpg") 
+      footer.footer   
+        .copyrights 
+          .copyrights__info  © 2021 Kinn Home
+          .footer-line 
+          .copyrights__info  Need to get in touch? Just email us at hello@kinnhome.co
+        .footer-menu  
+          .footer-menu__name Explore
+          .footer-line
+          .footer-menu__item.menu-caret Shop
+            ul
+              li
+                a(href="#") Shop 
+              li
+                a(href="#") Shop 2  
+              li
+                a(href="#") Shop 3 
+          a.footer-menu__item Style Quiz
+          a.footer-menu__item About Us
+          .footer-menu__item.menu-caret Stories
+            ul
+              li
+                a(href="#") Stories 
+              li
+                a(href="#") Stories 2  
+              li
+                a(href="#") Stories 3 
+        .help
+          .help__name Help
+          .footer__line
+          a.help__item FAQs + Shipping
+          a.help__item Contact
+          a.help__item Terms
+          a.help__item Trade
+        .networks  
+          a.networks__logo(href="#")
+            img(src="../img/facebook.png", alt="")
+          a.networks__logo(href="#")
+            img(src="../img/p.png", alt="")
+          a.networks__logo(href="#")
+            img(src="../img/insta.png", alt="")
